@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.navbar-brand{
+    font-size: var(--bs-nav-link-font-size);
+}
+.nav-link{
+    color: var(--bs-navbar-active-color)
+}
+.fa-solid{
+    cursor: pointer;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: #795376a9;
+    transition: all 0.5s ease-in-out;
+}
+.container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding-top: 10px;
+}
+nav{
+    background-color: white;
+}
+img{
+    margin-right: 143px;
+}
+.home{
+    margin-right: 30px;
+}
+.nav-link{
+    margin-right: 30px;
+}
+i{
+    margin-right: 10px;
+}
+.m{
+    margin-left: 150px;
+    margin-right: 30px;
+}
+.collapse{
+    margin-left: 23px;
+}
